@@ -44,7 +44,19 @@ extern void ARFeatheredPlaneMeshVisualizer_GenerateBoundaryUVs_mF756D3C1F7925A69
 extern void ARFeatheredPlaneMeshVisualizer__ctor_m9A77651BCAE58AA0B994FFF6C6B63B1CFF2729F6 (void);
 // 0x00000010 System.Void ARFeatheredPlaneMeshVisualizer::.cctor()
 extern void ARFeatheredPlaneMeshVisualizer__cctor_m56285A000EE27A1631BE9C5BCDA5C376E5D133C3 (void);
-static Il2CppMethodPointer s_methodPointers[16] = 
+// 0x00000011 System.Void TrackedAlphabetsScript::Awake()
+extern void TrackedAlphabetsScript_Awake_mDB2F967824B56AB259AC4A3487F45FD1D1F66609 (void);
+// 0x00000012 System.Void TrackedAlphabetsScript::OnEnable()
+extern void TrackedAlphabetsScript_OnEnable_mAEEBD39889DA0C57628955079C68216A2D048EDD (void);
+// 0x00000013 System.Void TrackedAlphabetsScript::OnDisable()
+extern void TrackedAlphabetsScript_OnDisable_m043189F94EACFC65370092A83D7567937F6FE660 (void);
+// 0x00000014 System.Void TrackedAlphabetsScript::OnImageChanged(UnityEngine.XR.ARFoundation.ARTrackedImagesChangedEventArgs)
+extern void TrackedAlphabetsScript_OnImageChanged_m3A00E10ADE32C043FF74574F6CDCB5779888705F (void);
+// 0x00000015 System.Void TrackedAlphabetsScript::UpdateImage(UnityEngine.XR.ARFoundation.ARTrackedImage)
+extern void TrackedAlphabetsScript_UpdateImage_m7E7AF040D9B26EC79378052311E08C1CF35CA756 (void);
+// 0x00000016 System.Void TrackedAlphabetsScript::.ctor()
+extern void TrackedAlphabetsScript__ctor_mB63E64231AF77D77B16F8458D60CFBDCBC03F416 (void);
+static Il2CppMethodPointer s_methodPointers[22] = 
 {
 	AnchorCreator_get_AnchorPrefab_mBBAF7805E9D9F8D79408EE642D153BC76306B25A,
 	AnchorCreator_set_AnchorPrefab_m53CC9CC3022C713826B44536B48B462C8A1FACFF,
@@ -62,31 +74,43 @@ static Il2CppMethodPointer s_methodPointers[16] =
 	ARFeatheredPlaneMeshVisualizer_GenerateBoundaryUVs_mF756D3C1F7925A69CD8C7C8CCE56209AB321FEF5,
 	ARFeatheredPlaneMeshVisualizer__ctor_m9A77651BCAE58AA0B994FFF6C6B63B1CFF2729F6,
 	ARFeatheredPlaneMeshVisualizer__cctor_m56285A000EE27A1631BE9C5BCDA5C376E5D133C3,
+	TrackedAlphabetsScript_Awake_mDB2F967824B56AB259AC4A3487F45FD1D1F66609,
+	TrackedAlphabetsScript_OnEnable_mAEEBD39889DA0C57628955079C68216A2D048EDD,
+	TrackedAlphabetsScript_OnDisable_m043189F94EACFC65370092A83D7567937F6FE660,
+	TrackedAlphabetsScript_OnImageChanged_m3A00E10ADE32C043FF74574F6CDCB5779888705F,
+	TrackedAlphabetsScript_UpdateImage_m7E7AF040D9B26EC79378052311E08C1CF35CA756,
+	TrackedAlphabetsScript__ctor_mB63E64231AF77D77B16F8458D60CFBDCBC03F416,
 };
-static const int32_t s_InvokerIndices[16] = 
+static const int32_t s_InvokerIndices[22] = 
 {
-	1941,
-	1696,
-	2002,
-	2002,
-	2002,
-	2002,
-	4103,
-	1965,
-	1713,
-	2002,
-	2002,
-	2002,
+	1942,
+	1697,
+	2003,
+	2003,
+	2003,
+	2003,
+	4106,
+	1966,
+	1714,
+	2003,
+	2003,
+	2003,
 	1647,
-	1696,
-	2002,
-	4103,
+	1697,
+	2003,
+	4106,
+	2003,
+	2003,
+	2003,
+	1651,
+	1697,
+	2003,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	16,
+	22,
 	s_methodPointers,
 	0,
 	NULL,

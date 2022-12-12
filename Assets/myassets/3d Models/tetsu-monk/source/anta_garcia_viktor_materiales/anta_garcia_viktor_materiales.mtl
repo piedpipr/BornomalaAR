@@ -1,0 +1,56 @@
+# Blender MTL File: 'anta_garcia_viktor_materiales.blend'
+# Material Count: 5
+
+newmtl Clothes
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.192748 0.042717
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump -bm 2.000000 D:\\.Dibujo y color\\Dibujo\\UltimoTrabajo\\Sculpt\\textures\\Fabric063_2K_NormalGL.jpg
+map_Ns D:\\.Dibujo y color\\Dibujo\\UltimoTrabajo\\Sculpt\\textures\\Fabric063_2K_Roughness.jpg
+
+newmtl Eye
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.154545 0.154545 0.154545
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd D:\\.Dibujo y color\\Dibujo\\UltimoTrabajo\\Sculpt\\Eye.png
+
+newmtl Skin
+Ns 410.764940
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.177273 0.177273 0.177273
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd D:\\.Dibujo y color\\Dibujo\\UltimoTrabajo\\Sculpt\\textures\\Skin.png
+
+newmtl bear
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.463178 0.463178 0.463178
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl gomilla
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.011147 0.180982 0.122704
+Ks 0.613636 0.613636 0.613636
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
