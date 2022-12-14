@@ -1,5 +1,6 @@
 # BornomalaAR
 Fun Unity ARCore augmented reality app for kids for learning Bengali alphabets using example 3d models based on simple image tracking
+(The app is uner development in initial phase and buggy)
 
 Images for Alphabets
 ==
